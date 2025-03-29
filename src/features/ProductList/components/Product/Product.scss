@@ -1,0 +1,29 @@
+.product {
+  display : grid;
+  gap     : 1rem;
+
+  &__image {
+    position      : relative;
+    display       : grid;
+    justify-items : center;
+    margin-bottom : -1.425rem;
+
+    & button {
+      position : relative;
+      bottom   : 1.425rem;
+    }
+  }
+
+  &__image-highlight {
+    border : 2px solid transparent;
+
+    &--active {
+      border : 2px solid $clr-red;
+    }
+  }
+
+  &__description {
+    display : grid;
+    gap     : 0.25rem;
+  }
+}

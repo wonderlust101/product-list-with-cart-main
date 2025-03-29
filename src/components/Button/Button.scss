@@ -1,0 +1,40 @@
+.button {
+  display         : inline-flex;
+  align-items     : center;
+  justify-content : center;
+  gap             : 0.5rem;
+  border-radius   : 50rem;
+  font-weight     : 600;
+
+  &--white {
+    border           : 1px solid $clr-rose-400;
+    color            : $clr-rose-900;
+    background-color : $clr-white;
+
+    & svg {
+      color : $clr-red;
+    }
+  }
+
+  &--red {
+    border           : 1px solid transparent;
+    color            : $clr-white;
+    background-color : $clr-red;
+
+    & svg {
+      color : $clr-white;
+    }
+  }
+
+  // Size
+  &--med {
+    width     : 10rem;
+    height    : 2.75rem;
+    font-size : 0.875rem;
+  }
+
+  &--lrg {
+    padding   : 1rem 1.5rem;
+    font-size : 1rem;
+  }
+}

@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.6.1",
     "babel-plugin-react-compiler": "^19.0.0-beta-aeaed83-20250323",
     "motion": "^12.6.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.4.0",
     "sass-embedded": "^1.86.0"
   },

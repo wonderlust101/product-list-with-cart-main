@@ -2,14 +2,14 @@
 
 // Global Styles
 * {
-  font-family : "Inter", sans-serif;
+  font-family : "Red Hat", sans-serif;
 }
 
 // Heading Styles
 .heading-xl {}
 
 .heading-lg {
-  font-size   : 3.5rem;
+  font-size   : 2.5rem;
   line-height : 1.2;
 }
 .heading-md {
@@ -38,11 +38,15 @@
 
 // Text Colors
 .text-rose-900 {color : a.$clr-rose-900;}
+.text-rose-500 {color : a.$clr-rose-500;}
+
+.text-red {color : a.$clr-red;}
 
 // Font Weight
 .bold {font-weight : 700;}
 .semi-bold {font-weight : 600;}
 .medium {font-weight : 500;}
+.normal {font-weight : 400;}
 .light {font-weight : 300;}
 
 // Font Style

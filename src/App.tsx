@@ -5,13 +5,13 @@ const basename = import.meta.env.BASE_URL;
 
 function App() {
 
-  return (
-    <BrowserRouter basename={basename}>
-        <Routes>
-            <Route path="/" element={<ProductList />} />
-        </Routes>
-    </BrowserRouter>
-  )
+    return (
+        <BrowserRouter basename={basename}>
+            <Routes>
+                <Route path="/" element={<ProductList/>}/>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
-export default App
+export default App;
